@@ -1,11 +1,24 @@
 cff-version: 1.2.0
-message: "Please cite Real2Gym and record the exact release tag or commit used. Collective authorship is provisional."
+message: "Please cite Real2Gym and record the exact release tag or commit used."
 type: software
-title: "Real2Gym: Real-World Videos to Executable Robot Simulations"
+title: "Real2Gym: Building Gyms from Videos, Bringing Skills to Robots"
 authors:
-  - name: "Real2Gym Contributors"
-repository-code: "https://github.com/cskrren/Real2Gym"
-url: "https://github.com/cskrren/Real2Gym"
+  - family-names: "Ren"
+    given-names: "Kerui"
+  - family-names: "Xu"
+    given-names: "Yingxiang"
+  - family-names: "Song"
+    given-names: "Kaiwen"
+  - family-names: "Xu"
+    given-names: "Linning"
+  - family-names: "Dai"
+    given-names: "Bo"
+  - family-names: "Yu"
+    given-names: "Mulin"
+  - family-names: "Lu"
+    given-names: "Tao"
+repository-code: "https://github.com/real2gym/Real2Gym"
+url: "https://github.com/real2gym/Real2Gym"
 abstract: "An agent-driven workflow for reconstructing robot or human videos into Blender scenes, executing and validating interactions in MuJoCo, and generating validated scene augmentations."
 keywords:
   - real2sim

@@ -1,6 +1,12 @@
-![Real2Gym 框架介绍](../assets/real2gym-overview.png)
+# Real2Gym: Building Gyms from Videos, Bringing Skills to Robots
 
 **[🌐 项目网站与演示视频](https://cskrren.github.io/real2gym-site/)**
+
+[Kerui Ren](https://scholar.google.com/citations?user=5kW5apkAAAAJ)\*, [Yingxiang Xu](https://github.com/LeoX0808)\*, Kaiwen Song, [Linning Xu](https://eveneveno.github.io/lnxu/), [Bo Dai](https://daibo.info/), [Mulin Yu](https://scholar.google.com/citations?user=w0Od3hQAAAAJ)†, [Tao Lu](https://scholar.google.com/citations?user=Ch28NiIAAAAJ)†
+
+\* 共同第一作者。† 通讯作者。
+
+![Real2Gym 论文 teaser：从视频构建仿真环境，将积累的技能迁移至机器人](../assets/paper/teaser.png)
 
 **中文** | [English](../README.md)
 
@@ -17,6 +23,8 @@ Real2Gym 由 **GPT6 Astra** 协调 **Blender 场景重建、MuJoCo 动作执行�
 
 ## 三步流程
 
+![论文方法的前三个环节：多视角重建、事件驱动的优化、独立场景增强](../assets/paper/method-first-three.png)
+
 | 步骤 | 工作 | 输出 |
 | --- | --- | --- |
 | **1. 重建** | 几何初始化、完整物体建模、与视频对齐 | Blender 场景、机器人与相机 |
@@ -25,7 +33,7 @@ Real2Gym 由 **GPT6 Astra** 协调 **Blender 场景重建、MuJoCo 动作执行�
 
 ## 快速使用
 
-克隆 [Real2Gym](https://github.com/cskrren/Real2Gym)，将完整 `skills/real2sim-prompt` 目录安装到 agent 技能目录。Codex 默认位置为 `~/.codex/skills/real2sim-prompt`，调用名称为 **`$real2sim-prompt`**。
+克隆 [Real2Gym](https://github.com/real2gym/Real2Gym)，将完整 `skills/real2sim-prompt` 目录安装到 agent 技能目录。Codex 默认位置为 `~/.codex/skills/real2sim-prompt`，调用名称为 **`$real2sim-prompt`**。
 
 使用 Conda 创建 `real2gym` 环境（Python 3.11），命令见[英文快速开始](../README.md#get-started)。按[环境准备指南](guides/getting-started.md)配置 Blender、MuJoCo、几何模型和机器人资产，然后向 agent 提供视频路径、输入类型、目标硬件和输出目录。[示例请求](../examples/README.md)
 

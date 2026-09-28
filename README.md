@@ -1,6 +1,12 @@
-![Real2Gym: real videos, Blender reconstruction, MuJoCo execution and scene augmentation](assets/real2gym-overview.png)
+# Real2Gym: Building Gyms from Videos, Bringing Skills to Robots
 
 **[🌐 Project website & demos](https://cskrren.github.io/real2gym-site/)**
+
+[Kerui Ren](https://scholar.google.com/citations?user=5kW5apkAAAAJ)\*, [Yingxiang Xu](https://github.com/LeoX0808)\*, Kaiwen Song, [Linning Xu](https://eveneveno.github.io/lnxu/), [Bo Dai](https://daibo.info/), [Mulin Yu](https://scholar.google.com/citations?user=w0Od3hQAAAAJ)†, [Tao Lu](https://scholar.google.com/citations?user=Ch28NiIAAAAJ)†
+
+\* Equal contribution. † Corresponding authors.
+
+![Real2Gym paper teaser: building simulation gyms from videos and bringing accumulated skills to robots](assets/paper/teaser.png)
 
 [中文](docs/README.zh-CN.md) | **English**
 
@@ -19,6 +25,8 @@ Real2Gym uses **GPT6 Astra** to coordinate scene reconstruction, action adaptati
 
 ## Three steps
 
+![The first three stages of the paper method: multi-view reconstruction, event-driven refinement, and independent augmentation](assets/paper/method-first-three.png)
+
 | Step | What happens | Deliverables |
 | --- | --- | --- |
 | **1. Reconstruct** | Initialize geometry, build complete objects and align the scene to video | Blender scene, robot and cameras |
@@ -28,7 +36,7 @@ Real2Gym uses **GPT6 Astra** to coordinate scene reconstruction, action adaptati
 ## Get started
 
 ```bash
-git clone https://github.com/cskrren/Real2Gym.git
+git clone https://github.com/real2gym/Real2Gym.git
 cd Real2Gym
 conda create -n real2gym python=3.11 -y
 conda activate real2gym
@@ -83,10 +91,10 @@ Please cite Real2Gym and record the exact tag or commit used:
 
 ```bibtex
 @software{real2gym,
-  author = {{Real2Gym Contributors}},
-  title = {{Real2Gym: Real-World Videos to Executable Robot Simulations}},
+  author = {Ren, Kerui and Xu, Yingxiang and Song, Kaiwen and Xu, Linning and Dai, Bo and Yu, Mulin and Lu, Tao},
+  title = {{Real2Gym: Building Gyms from Videos, Bringing Skills to Robots}},
   year = {2026},
-  url = {https://github.com/cskrren/Real2Gym}
+  url = {https://github.com/real2gym/Real2Gym}
 }
 ```
 

@@ -1,6 +1,10 @@
-# Framework artwork
+# Paper figures and earlier framework artwork
 
-[real2gym-overview.png](real2gym-overview.png) is the Real2Gym introduction graphic used in the English and Chinese READMEs. It presents real videos, reconstruction/execution and validated augmentation, coordinated by GPT6 Astra.
+The English and Chinese READMEs now use the paper [teaser](paper/teaser.png) and [first three method stages](paper/method-first-three.png). See [the source and export record](paper/provenance.json) for their paper revision, source hashes and PDF crop.
+
+## Earlier framework artwork
+
+[real2gym-overview.png](real2gym-overview.png) is the earlier Real2Gym introduction graphic. It presents real videos, reconstruction/execution and validated augmentation, coordinated by GPT6 Astra.
 
 Generated with the built-in image tool after user authorization. The tool does not expose the underlying model identity; this asset is not labelled GPTimage 2.5. GPT6 Astra in the graphic denotes the workflow orchestrator, not the image generator.
 
@@ -17,4 +21,4 @@ This is conceptual AI-generated artwork, not a real input video, a simulator ren
 
 The latest table-height illustration uses a ground-mounted independent robot pedestal, per the requested visual reference. This artwork choice does not change the skill rule that mounting relationships determine whether a robot follows table height.
 
-The current README image is the exact final image supplied by the user, copied without modification. Its file hash and selection record are stored in `hero-generation.json`; the generation history above documents earlier artwork preparation.
+The earlier README image is the exact final image supplied by the user, copied without modification. Its file hash and selection record are stored in `hero-generation.json`; the generation history above documents earlier artwork preparation.

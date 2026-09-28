@@ -1,0 +1,65 @@
+{
+  "source_paper_revision": "246c2e81fc8e495e63c734c8f159f584695ce00b",
+  "source_figures": {
+    "teaser": {
+      "path": "fig/teaser.pdf",
+      "sha256": "65539696dee12a4729d7ce457836f86e4aa41702423c37234d6b80023ceefa30"
+    },
+    "method": {
+      "path": "fig/method.pdf",
+      "sha256": "a12bc3d03b36539e7f595daefe31760cdc68eb97d43ab84e56597b344645f8dd"
+    }
+  },
+  "method_crop": {
+    "coordinate_system": "PDF points, bottom-left origin",
+    "rectangle": [
+      0,
+      15.01416,
+      1368,
+      855.01419
+    ],
+    "source_cropbox": [
+      0,
+      15.01416,
+      1836,
+      855.01419
+    ],
+    "visible_region_from_source_top_left": [
+      0,
+      0,
+      1368,
+      840.00003
+    ],
+    "visible_stages": [
+      "01 Multi-view reconstruction",
+      "02 Event-driven refinement",
+      "03 Independent augmentation"
+    ],
+    "preservation": "Original PDF content stream unchanged. CropBox, MediaBox, TrimBox, BleedBox and ArtBox set to extraction rectangle. No re-drawing, relabeling, image generation, or source modification."
+  },
+  "render": {
+    "tool": "pdftoppm",
+    "options": "-f 1 -singlefile -cropbox -r 144 -png"
+  },
+  "verification": {
+    "full_source_crop_matches_output_pixels_exactly": true,
+    "original_pdf_content_stream_preserved": true,
+    "visual_review": "Both output PNGs viewed; all three method panels complete, fourth panel and outgoing arrow excluded, teaser fully visible."
+  },
+  "exports": {
+    "teaser.png": {
+      "sha256": "0a8265b91a0964c5e89d0ef02b8e113dcb5477c23d013a3914830f093eaad62c",
+      "pixels": [
+        2582,
+        1354
+      ]
+    },
+    "method-first-three.png": {
+      "sha256": "b1ee0e3b91e1e161b3aad228e299017a1578390423f85191a6adae1ea9cbd078",
+      "pixels": [
+        2736,
+        1681
+      ]
+    }
+  }
+}

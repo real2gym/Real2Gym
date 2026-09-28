@@ -10,4 +10,4 @@ Discuss the intended change in an issue or PR. Keep reconstruction, motion execu
 - Record dependency changes and known limits. Never repair a failing report by inventing pass flags or run provenance.
 - Do not commit credentials, personal source videos, weights, private datasets, generated runs or third-party assets without suitable distribution rights.
 
-A repository-wide license and formal author list are pending owner selection. Do not assume an unstated license. PRs should state what changed, why, how it was validated, and relevant limitations.
+A repository-wide license is pending owner selection. Do not assume an unstated license. PRs should state what changed, why, how it was validated, and relevant limitations.
