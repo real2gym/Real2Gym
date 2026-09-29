@@ -1,6 +1,6 @@
 # Real2Gym: Building Gyms from Videos, Bringing Skills to Robots
 
-**[🌐 项目网站与演示视频](https://cskrren.github.io/real2gym-site/)**
+**[🌐 Project website & demos](https://real2gym.github.io/)** · **[Real2Sim](https://github.com/real2gym/Real2Gym)** · **[Agent](https://github.com/real2gym/R2G_Agent)** · **[Paper](https://github.com/real2gym/Real2Gym/blob/main/paper/Real2Gym.pdf)**
 
 [Kerui Ren](https://scholar.google.com/citations?user=5kW5apkAAAAJ)\*, [Yingxiang Xu](https://github.com/LeoX0808)\*, Kaiwen Song, [Linning Xu](https://eveneveno.github.io/lnxu/), [Bo Dai](https://daibo.info/), [Mulin Yu](https://scholar.google.com/citations?user=w0Od3hQAAAAJ)†, [Tao Lu](https://scholar.google.com/citations?user=Ch28NiIAAAAJ)†
 
